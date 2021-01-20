@@ -1,0 +1,20 @@
+{
+  "name": "mvc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "build": "sucrase ./src -d ./dist --transforms imports" 
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6",
+    "sucrase": "^3.16.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
